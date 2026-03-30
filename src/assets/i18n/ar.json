@@ -1,0 +1,101 @@
+{
+  "APP": {
+    "TITLE": "شوب ميني",
+    "TAGLINE": "سوقك اليومي"
+  },
+  "NAV": {
+    "HOME": "الرئيسية",
+    "PRODUCTS": "المنتجات",
+    "CART": "السلة",
+    "SEARCH": "بحث",
+    "SEARCH_PLACEHOLDER": "ابحث عن منتجات...",
+    "LANG_AR": "العربية",
+    "LANG_EN": "English"
+  },
+  "HOME": {
+    "HERO_TITLE": "اكتشف عروضاً مذهلة",
+    "HERO_SUBTITLE": "تسوق آلاف المنتجات بأسعار لا تُقاوم",
+    "SHOP_NOW": "تسوق الآن",
+    "CATEGORIES_TITLE": "تسوق حسب الفئة",
+    "FEATURED_TITLE": "منتجات مميزة",
+    "VIEW_ALL": "عرض الكل"
+  },
+  "PRODUCT": {
+    "ADD_TO_CART": "أضف إلى السلة",
+    "OUT_OF_STOCK": "غير متوفر",
+    "ON_SALE": "تخفيض",
+    "NEW": "جديد",
+    "FEATURED": "مميز",
+    "DISCOUNT": "خصم {{value}}%",
+    "RATING": "{{value}} نجوم",
+    "REVIEWS": "{{count}} تقييم",
+    "PRICE": "{{value}} {{currency}}",
+    "ORIGINAL_PRICE": "كان {{value}} {{currency}}"
+  },
+  "CART": {
+    "TITLE": "سلة التسوق",
+    "EMPTY": "سلتك فارغة",
+    "EMPTY_SUBTITLE": "ابدأ التسوق لإضافة منتجات إلى سلتك",
+    "START_SHOPPING": "ابدأ التسوق",
+    "ITEMS": "{{count}} منتجات",
+    "SUBTOTAL": "المجموع الجزئي",
+    "SHIPPING": "الشحن",
+    "FREE_SHIPPING": "مجاني",
+    "TAX": "الضريبة",
+    "TOTAL": "الإجمالي",
+    "CHECKOUT": "إتمام الشراء",
+    "REMOVE": "حذف",
+    "QUANTITY": "الكمية",
+    "PAYMENT_METHODS": "طرق الدفع المقبولة",
+    "CONTINUE_SHOPPING": "مواصلة التسوق"
+  },
+  "SEARCH": {
+    "TITLE": "نتائج البحث",
+    "RESULTS_FOR": "نتائج \"{{query}}\"",
+    "NO_RESULTS": "لا توجد نتائج",
+    "NO_RESULTS_SUBTITLE": "جرب كلمات مختلفة أو تصفح فئاتنا",
+    "FILTERS": "التصفية",
+    "SORT_BY": "ترتيب حسب",
+    "SORT_RELEVANCE": "الأكثر صلة",
+    "SORT_PRICE_ASC": "السعر: من الأقل",
+    "SORT_PRICE_DESC": "السعر: من الأعلى",
+    "SORT_RATING": "الأعلى تقييماً",
+    "RESULTS_COUNT": "{{count}} نتيجة"
+  },
+  "PRODUCT_DETAIL": {
+    "DESCRIPTION": "الوصف",
+    "SPECIFICATIONS": "المواصفات",
+    "REVIEWS": "تقييمات العملاء",
+    "RELATED": "منتجات مشابهة",
+    "BREADCRUMB_HOME": "الرئيسية",
+    "BREADCRUMB_PRODUCTS": "المنتجات",
+    "BACK": "العودة للمنتجات",
+    "IN_STOCK": "متوفر",
+    "LOW_STOCK": "{{count}} فقط متبقية",
+    "FREE_DELIVERY": "توصيل مجاني",
+    "RETURN_POLICY": "إرجاع خلال 30 يوم"
+  },
+  "PAYMENT": {
+    "TITLE": "طرق الدفع",
+    "CARD": "بطاقة ائتمانية / خصم",
+    "CASH": "الدفع عند الاستلام",
+    "WALLET": "محفظة إلكترونية"
+  },
+  "COMMON": {
+    "LOADING": "جاري التحميل...",
+    "ERROR": "حدث خطأ ما",
+    "RETRY": "حاول مرة أخرى",
+    "CLOSE": "إغلاق",
+    "CANCEL": "إلغاء",
+    "CONFIRM": "تأكيد",
+    "SAVE": "حفظ",
+    "DELETE": "حذف",
+    "EDIT": "تعديل",
+    "VIEW": "عرض",
+    "BACK": "رجوع",
+    "NEXT": "التالي",
+    "PREVIOUS": "السابق",
+    "CURRENCY_EGP": "ج.م",
+    "CURRENCY_USD": "دولار"
+  }
+}

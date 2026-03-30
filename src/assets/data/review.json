@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "productId": 1,
+    "author": "Ahmed Hassan",
+    "rating": 5,
+    "comment": "Excellent product! The camera quality is outstanding and battery life exceeds expectations.",
+    "date": "2024-12-15"
+  },
+  {
+    "id": 2,
+    "productId": 1,
+    "author": "Sarah Mitchell",
+    "rating": 4,
+    "comment": "Great phone overall. A bit pricey but the performance is worth it.",
+    "date": "2024-11-28"
+  },
+  {
+    "id": 3,
+    "productId": 2,
+    "author": "Mohamed Ali",
+    "rating": 5,
+    "comment": "The S-Pen is a game changer. Best Android phone I've ever used.",
+    "date": "2025-01-03"
+  },
+  {
+    "id": 4,
+    "productId": 3,
+    "author": "Emily Chen",
+    "rating": 4,
+    "comment": "Sound quality is amazing. Noise cancellation is top-notch for flights.",
+    "date": "2024-10-19"
+  },
+  {
+    "id": 5,
+    "productId": 4,
+    "author": "Khaled Ibrahim",
+    "rating": 3,
+    "comment": "Good shoes but sizing runs small. Order one size up.",
+    "date": "2025-02-07"
+  },
+  {
+    "id": 6,
+    "productId": 1,
+    "author": "Nour Mahmoud",
+    "rating": 5,
+    "comment": "منتج ممتاز! الكاميرا رائعة والبطارية تدوم طويلاً. أنصح به بشدة.",
+    "date": "2025-01-20"
+  },
+  {
+    "id": 7,
+    "productId": 5,
+    "author": "James Wilson",
+    "rating": 2,
+    "comment": "Display resolution is great but it runs hot under load. Disappointing for the price.",
+    "date": "2024-09-14"
+  },
+  {
+    "id": 8,
+    "productId": 6,
+    "author": "Fatima Al-Rashid",
+    "rating": 5,
+    "comment": "شاشة رائعة وأداء لا مثيل له. أفضل لابتوب اشتريته على الإطلاق.",
+    "date": "2025-03-01"
+  }
+]

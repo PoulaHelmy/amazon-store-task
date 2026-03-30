@@ -1,0 +1,50 @@
+<div class="reviews-section">
+
+  <div class="reviews-header">
+    <h3 class="reviews-title">
+      {{ 'REVIEWS.TITLE' | translate }} ({{ getReviewCount() }})
+    </h3>
+    <div class="avg-rating">
+      <div class="stars-display">
+        @for (star of getStars(getAverageRating()); track $index) {
+          <i [class]="star ? 'pi pi-star-fill' : 'pi pi-star'"></i>
+        }
+      </div>
+      <span class="avg-label">{{ getAverageRating() }} / 5</span>
+    </div>
+  </div>
+
+  @if (loading) {
+    @for (i of [1, 2, 3]; track i) {
+      <div class="review-skeleton">
+        <p-skeleton height="1rem" width="40%" />
+        <p-skeleton height="0.8rem" width="80%" styleClass="mt-2" />
+        <p-skeleton height="0.8rem" width="65%" styleClass="mt-1" />
+      </div>
+    }
+  }
+
+  @for (review of reviews; track $index) {
+    <div class="review-card" style="margin-bottom: 12px;">
+      <div class="review-header">
+        <img src="/assets/images/avatar-placeholder.png" class="avatar" />
+        <span class="Author">{{ review.Author }}</span>
+        <div class="star-wrapper">
+          @for (star of getStars(review.Rating); track $index) {
+            <i [class]="star ? 'pi pi-star-fill' : 'pi pi-star'"></i>
+          }
+        </div>
+        <small class="review-date">{{ formatDate(review.Date) }}</small>
+      </div>
+      <p class="review-comment">{{ review.Comment }}</p>
+    </div>
+  }
+
+  @if (reviews.length == 0 && !loading) {
+    <div class="no-reviews">
+      <i class="pi pi-comment"></i>
+      <p>{{ 'REVIEWS.EMPTY' | translate }}</p>
+    </div>
+  }
+
+</div>

@@ -28,7 +28,7 @@ npm start      # runs the app at http://localhost:4200
 A teammate opened a PR on the `feature/promo-code` branch. Review the code and write your feedback as if you were leaving GitHub review comments.
 
 **Branch:** `feature/promo-code`
-
+https://github.com/PoulaHelmy/amazon-store-task/pull/1/
 ```bash
 git checkout feature/promo-code
 git diff main feature/promo-code
